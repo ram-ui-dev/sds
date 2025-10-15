@@ -1,18 +1,17 @@
 {
-  "name": "@ds/sds",
-  "version": "0.1.0",
+  "name": "sds-library",
+  "version": "0.0.1",
   "description": "Simple Design System - A comprehensive React-based design system with Figma integration",
   "type": "module",
-  "main": "dist/sds.es.js",
-  "module": "dist/sds.es.js",
-  "style": "dist/sds.css",
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "style": "dist/index.css",
   "exports": {
     ".": {
-      "types": "./dist/types/ui/index.d.ts",
-      "import": "./dist/sds.es.js",
-      "default": "./dist/sds.es.js"
+      "import": "./dist/index.es.js",
+      "default": "./dist/index.es.js"
     },
-    "./style": "./dist/sds.css",
+    "./style": "./dist/index.css",
     "./package.json": "./package.json"
   },
   "types": "./dist/types/ui/index.d.ts",
@@ -80,10 +79,6 @@
     "typescript": "^5.0.2",
     "vite": "^6.3.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ram-ui-dev/custom-sds.git"
-  },
   "keywords": [
     "react",
     "design-system",
@@ -92,12 +87,7 @@
     "accessibility",
     "figma"
   ],
-  "author": "Ram UI Dev",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ram-ui-dev/custom-sds/issues"
-  },
-  "homepage": "https://github.com/ram-ui-dev/custom-sds#readme",
   "publishConfig": {
     "access": "public"
   }
